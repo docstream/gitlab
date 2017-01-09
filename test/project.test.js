@@ -34,12 +34,12 @@ describe('project.test.js', function () {
           'issues_enabled', 'merge_requests_enabled',
           'wiki_enabled', 'created_at', 'last_activity_at',
           'archived', 'visibility_level', 'snippets_enabled', 'permissions',
-					'tag_list', 'builds_enabled', 'shared_runners_enabled', 'creator_id',
-				  'avatar_url', 'star_count', 'forks_count', 'open_issues_count',
-					'runners_token', 'public_builds', 'container_registry_enabled', 'lfs_enabled', 'shared_with_groups',
+          'tag_list', 'builds_enabled', 'shared_runners_enabled', 'creator_id',
+          'avatar_url', 'star_count', 'forks_count', 'open_issues_count',
+          'runners_token', 'public_builds', 'container_registry_enabled', 'lfs_enabled', 'shared_with_groups',
           'only_allow_merge_if_build_succeeds', 'request_access_enabled');
         project.owner.should.have.keys('id', 'username', 'name', 'state', 'avatar_url',
-					'web_url');
+          'web_url');
         done();
       });
     });
@@ -59,7 +59,7 @@ describe('project.test.js', function () {
         //   'issues_enabled', 'merge_requests_enabled', 'wall_enabled',
         //   'wiki_enabled', 'created_at');
         project.owner.should.have.keys('id', 'username', 'name', 'state', 'avatar_url',
-					'web_url');
+          'web_url');
         done();
       });
     });
